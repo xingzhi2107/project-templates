@@ -16,7 +16,7 @@ module.exports = {
     browser: true,
     jest: true,
   },
-  ignorePatterns: ['.eslintrc.js'],
+  ignorePatterns: ['*.js'],
   rules: {
     'no-unused-vars': ['error', {args: 'none'}],
 
